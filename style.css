@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    margin-right: 20px;
+}
+header{
+    height: 30vh;
+    
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 16px;
+   
+}
+.header{
+    padding: 20px 0;
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+}
+.header img{
+    padding: 0 20px;
+}
+.header-wrapper img{
+}
+.header-contents{
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+}
+.header-contents ul{
+    display: flex;
+    list-style: none;
+}
+.header-contents li{
+    margin-right:40px;
+}
+.intoroduction{
+    margin: auto;
+}
+.intro-list{
+    display: flex;
+}
+.intro-contents{
+    text-align: center;
+    margin: 10px;
+}
+.intro-contents img{
+    width: 100%;
+}
+.intro-contents h2{
+    font-size: 16px;
+    text-align: left;
+}
+.intro-contents p{
+    border-bottom: black 1px solid;
+    display: inline-block;
+    font-size: 13px;
+    margin: 20px 0;
+}
+.container{
+    display: flex;
+    
+}
+main{
+    flex: 1;
+    margin: 50px 0;
+}
+.main-contents{
+    margin: 10px;
+}
+.main-contents h1{
+    font-size: 25px;
+}
+.main-contents h2{
+    font-size: 13px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+.main-contents h3{
+    font-size: 16px;
+    font-weight: 200;
+    width: 80%;
+    margin:10px auto;
+    
+}
+.main-contents img{
+    width: 100%;
+}
+.main-read{
+    text-align: center;
+
+}
+.main-contents p{
+    border-bottom: black 1px solid;
+    display: inline-block;
+    font-size: 13px;
+    margin: 15px 0;
+}
+aside{
+    width: 33.333%;
+    margin: 50px 0;
+}
+aside h2{
+    margin: 30px 0;
+    font-size: 18px;
+}
+aside h3{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 200;
+}
+.my-contents{
+    text-align: center;
+}
+.my-intro img{
+    border-radius: 50%;
+    width: 35%;
+}
+.Ranking{
+    text-align: center;
+    margin: 50px 0;
+}
+.Ranking img{
+    width: 80%;
+    margin: auto;
+}
+.Ranking h3{
+    margin-bottom: 30px;
+}
+.Archive{
+    text-align: center;
+    margin: 50px 0;
+}
+.Archive-contents{
+    width: 80%;
+    margin: auto;
+}
+.Archive p{
+    text-align: left;
+    width: 100%;
+    border-bottom: solid 1px black;
+    padding: 20px;
+    font-size: 13px;
+}
+footer{
+    background: rgba(245, 245, 245, 0.897);
+}
+.foo{
+    width: 33.333%;
+}
+.foo h2{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 30px;
+}
+.foo p{
+    font-size: 12px;
+    margin: 30px;
+}
+.About h4{
+    font-size: 12px;
+    margin: 5px 30px;
+    font-weight: 200;
+}
+.Menu p{
+    border-bottom: black 1px solid;
+    margin: 0 30px;
+    padding: 20px 0;
+}
+.footer-contents{
+    display: flex;
+}
+.twitter-timeline{
+    margin: 30px;
+    width: 100%;
+}
+.copyright{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+}
