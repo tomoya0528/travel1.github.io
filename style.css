@@ -76,7 +76,6 @@ header{
 }
 .intro-contents p:hover{
     border-bottom: none;
-
 }
 .container{
     display: flex;
@@ -116,6 +115,9 @@ main{
     display: inline-block;
     font-size: 13px;
     margin: 15px 0;
+}
+.main-contents p:hover{
+    border-bottom: none;
 }
 aside{
     width: 33.333%;
