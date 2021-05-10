@@ -2,11 +2,18 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+header a{
+    color: white;
+}
 span{
     margin-right: 20px;
 }
 header{
-    height: 30vh;
+    height: 25vh;
     
 }
 .wrapper{
@@ -40,6 +47,9 @@ header{
 .header-contents li{
     margin-right:40px;
 }
+.header-contents li:hover{
+    opacity: 0.7;
+}
 .intoroduction{
     margin: auto;
 }
@@ -62,6 +72,11 @@ header{
     display: inline-block;
     font-size: 13px;
     margin: 20px 0;
+    transition:all 3s;
+}
+.intro-contents p:hover{
+    border-bottom: none;
+
 }
 .container{
     display: flex;
@@ -147,8 +162,12 @@ aside h3{
     text-align: left;
     width: 100%;
     border-bottom: solid 1px black;
-    padding: 20px;
+    border-top: solid 1px black;
+    padding: 20px 0;
     font-size: 13px;
+}
+.Archive p + p{
+    border-top: none;
 }
 footer{
     background: rgba(245, 245, 245, 0.897);
@@ -172,18 +191,54 @@ footer{
 }
 .Menu p{
     border-bottom: black 1px solid;
+    border-top: black 1px solid;
     margin: 0 30px;
     padding: 20px 0;
+}
+.Menu p + p{
+    border-top: none;
 }
 .footer-contents{
     display: flex;
 }
 .twitter-timeline{
-    margin: 30px;
-    width: 100%;
+    width: none;
+    margin: 0 auto;
 }
 .copyright{
     text-align: center;
     margin-top: 50px;
     font-size: 12px;
+}
+@media(max-width:1000px){
+    
+    }
+@media(max-width:670px){
+    .header-contents{
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .header-contents ul{
+        max-width: 670px;
+        min-width: 430px;
+    }
+    .header-contents li:hover{
+        opacity: 0.7;
+    }
+    .intro-list{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+    }
+    .footer-contents{
+        flex-direction: column;
+    }
+    .foo{
+        width: 100%;
+    }
+  
 }
