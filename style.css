@@ -13,8 +13,10 @@ span{
     margin-right: 20px;
 }
 header{
-    height: 25vh;
-    
+    height: 15vh;
+    background:white;
+    position:fixed;
+    z-index:10;
 }
 .wrapper{
     max-width: 1200px;
@@ -50,8 +52,9 @@ header{
 .header-contents li:hover{
     opacity: 0.7;
 }
-.intoroduction{
+.introduction{
     margin: auto;
+    padding-top:150px;
 }
 .intro-list{
     display: flex;
