@@ -15,7 +15,6 @@ span{
 header{
     width: 100%;
     background: white;
-    height: 15vh;
     position: fixed;
     z-index: 10;
 }
